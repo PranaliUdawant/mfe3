@@ -19,7 +19,11 @@ const App = () => {
   return (
     <div>
       {countryList ? (
-        <iframe src="https://mfe1-cdem.vercel.app/" frameborder="0"></iframe>
+        <iframe
+          className="size-full top-0 absolute"
+          src="https://mfe1-cdem.vercel.app/"
+          frameborder="0"
+        ></iframe>
       ) : (
         <div className="p-6 block h-screen w-4/5 ml-80 ">
           <h1 className="text-3xl text-center font-bold ">Map View</h1>
